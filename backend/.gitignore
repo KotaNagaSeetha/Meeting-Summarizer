@@ -1,6 +1,21 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+
+# Environment
 .env
+.env.*
+
+# Virtual environment
+venv/
+
+# Instance folder (Flask local configs)
+instance/
+
+# Local DB
+db.sqlite3
+
+# Uploaded files
 static/uploads/
 
